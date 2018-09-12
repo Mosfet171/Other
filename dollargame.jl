@@ -19,13 +19,14 @@ function input(prompt::String="")::String
         return chomp(readline())
 end
 
-# First condition 
+# Playing condition 
 if Totmon < Gen 
     println("Not enough money !") ;
 else
     println("Start !")
 end
 
+##### REAL GAME BEGGINING #####
 Nok = 0 ;
 while Nok < length(W)
 Nok = 0 ;
